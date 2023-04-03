@@ -6,19 +6,21 @@ Julien,Hosri,UI/UX Consultant,julien@company.io,+961 0 000 000`;
 const htmlTemplate = (firstName, lastName, position, email, phoneNumber) => `
 <table role="presentation" style="width:100%;border-collapse:collapse;border-spacing:0;text-align:left;font-family: Arial, sans-serif;color:rgb(54,55,56)">
    <tr>
-      <td style="padding:0;width:120px">
-         <a href="https://company.io/" target="_blank">
-            <img src="[url to the company logo]" alt="SEF" height="100px" width="100px">
+      <td style="padding:0;width:100px">
+         <a href="https://company-website.com" target="_blank">
+            <img src="[url to your square company logo]" alt="SEF" style="max-width:85px;max-height:85px;" height="85" width="85">
          </a>
       </td>
-      <td style="padding:0;font-size:15px">
-         <div style="background-color:rgb(54,55,56);padding:2px 6px;display:inline-block;color:rgb(255,255,255);font-weight:bold">
-            <span style="color:rgb(40,238,167)">${firstName}</span> ${lastName}
+      <td style="padding:0;font-size:14px">
+         <div style="font-weight:bold;display:inline">
+            <span style="background-color:rgb(54,55,56);padding:2px 5px;color:rgb(255,255,255);">
+               <span style="color:rgb(244,40,76)">${firstName}</span> ${lastName}
+            </span>
          </div>
-         <div style="padding:0;font-size:13px;font-weight:bold;margin:4px 0 10px 0">
-            ${position} <span style="color:rgb(165,166,169)"> - [Company Name]</span>
+         <div style="padding:0;font-size:12px;font-weight:bold;margin:4px 0 10px 0">
+            ${position} <span style="color:rgb(165,166,169)"> - [company name]</span>
          </div>
-         <div style="font-family:Courier New,Courier,monospace;font-size:12px;line-height:18px;color:rgb(165,166,169)">
+         <div style="font-family:Courier New,Courier,monospace;font-size:11px;line-height:15px;color:rgb(165,166,169)">
             <div>// <a href="mailto:${email}" style="text-decoration-line:none;text-decoration:none;color:rgb(165,166,169)" target="_blank">${email}</a></div>
             <div>// <a href="tel:${phoneNumber}" style="text-decoration-line:none;text-decoration:none;color:rgb(165,166,169)" target="_blank">${phoneNumber}</a></div>
          </div>

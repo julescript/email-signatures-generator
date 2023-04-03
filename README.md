@@ -21,7 +21,7 @@ This repository contains a Node.js script to automate the generation and distrib
 4. Open the `email-signatures-script.js` file in a text editor.
 5. Replace the placeholders `[your gmail]` and `[gmail app password]` with your Gmail credentials.
 6. Update the `csvData` variable with your employee data in CSV format, following this structure: `First,Last,Position,Email,Phone` example: `John,Doe,Software Engineer,john.doe@example.com,+1 555-555-5555`
-7. Save the changes and execute `node email_sigs.js` in the terminal or command prompt to run the script.
+7. Save the changes and execute `node email-signatures-script.js` in the terminal or command prompt to run the script.
 
 The script will process the CSV data, generate personalized HTML email signatures for each member of the company, and send them to their respective email addresses.
 
